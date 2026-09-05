@@ -56,4 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }, { passive: true });
     }
+
+    // --- Dynamic Footer Year ---
+    const footerCopy = document.querySelector('.footer-copy');
+    if (footerCopy) {
+        footerCopy.innerHTML = footerCopy.innerHTML.replace(/\b2026\b/, new Date().getFullYear());
+    }
 });
