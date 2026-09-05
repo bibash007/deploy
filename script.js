@@ -6,29 +6,36 @@ document.addEventListener("DOMContentLoaded", () => {
         threshold: 0.15
     };
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target); // Stop observing once it's visible
-            }
-        });
-    }, observerOptions);
+    const fadeInElements = document.querySelectorAll('.fade-in');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    document.querySelectorAll('.fade-in').forEach(element => {
-        observer.observe(element);
-    });
+    if (prefersReducedMotion) {
+        fadeInElements.forEach(element => element.classList.add('visible'));
+    } else if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        fadeInElements.forEach(element => observer.observe(element));
+    } else {
+        fadeInElements.forEach(element => element.classList.add('visible'));
+    }
 
     // --- Contact Form Mock ---
     const contactForm = document.getElementById("contactForm");
     const formMessage = document.getElementById("formMessage");
 
-    if (contactForm) {
+    if (contactForm && formMessage) {
         contactForm.addEventListener("submit", (e) => {
             e.preventDefault();
             formMessage.style.display = "block";
             contactForm.reset();
-            
+
             setTimeout(() => {
                 formMessage.style.display = "none";
             }, 5000);
