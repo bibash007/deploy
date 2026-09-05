@@ -1,0 +1,9 @@
+{
+  "name": "Bibash Pandey — Portfolio",
+  "short_name": "Bibash Pandey",
+  "description": "Personal portfolio of Bibash Pandey, focused on AI, machine learning, and data science.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf8",
+  "theme_color": "#087d6d"
+}
