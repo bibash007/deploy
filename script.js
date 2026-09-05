@@ -31,6 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const formMessage = document.getElementById("formMessage");
 
     if (contactForm && formMessage) {
+        formMessage.setAttribute('role', 'status');
+        formMessage.setAttribute('aria-live', 'polite');
+
         contactForm.addEventListener("submit", (e) => {
             e.preventDefault();
             formMessage.style.display = "block";
@@ -51,6 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 navbar.classList.remove('scrolled');
             }
-        });
+        }, { passive: true });
     }
 });
