@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Contact Form Mock ---
     const contactForm = document.getElementById("contactForm");
     const formMessage = document.getElementById("formMessage");
-    const submitButton = contactForm?.querySelector('button[type="submit"]');
 
     if (contactForm && formMessage) {
         formMessage.setAttribute('role', 'status');
