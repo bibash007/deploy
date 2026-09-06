@@ -45,6 +45,10 @@ The site uses section anchors for quick access to the main portfolio areas:
 
 The interface includes reduced-motion handling for users who prefer less animation, semantic form status messaging, and descriptive image/link labels.
 
+## Contact Form
+
+The contact form currently provides a client-side confirmation message. It does not send data to a backend service.
+
 ## Local Development
 
 Open `index.html` directly in a browser, or serve the project with any simple static web server.
