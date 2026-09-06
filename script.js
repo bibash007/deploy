@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (submitButton) {
                 submitButton.disabled = true;
-                submitButton.textContent = "Message Sent";
+                submitButton.textContent = "Sent!";
             }
 
             contactForm.reset();
