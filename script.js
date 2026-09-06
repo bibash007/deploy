@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Contact Form Mock ---
     const contactForm = document.getElementById("contactForm");
     const formMessage = document.getElementById("formMessage");
+    const submitButton = contactForm?.querySelector('button[type="submit"]');
 
     if (contactForm && formMessage) {
         formMessage.setAttribute('role', 'status');
@@ -37,10 +38,20 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.addEventListener("submit", (e) => {
             e.preventDefault();
             formMessage.style.display = "block";
+
+            if (submitButton) {
+                submitButton.disabled = true;
+                submitButton.textContent = "Message Sent";
+            }
+
             contactForm.reset();
 
             setTimeout(() => {
                 formMessage.style.display = "none";
+                if (submitButton) {
+                    submitButton.disabled = false;
+                    submitButton.textContent = "Send Message";
+                }
             }, 5000);
         });
     }
