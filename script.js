@@ -75,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Dynamic Footer Year ---
     const footerCopy = document.querySelector('.footer-copy');
     if (footerCopy) {
-        footerCopy.innerHTML = footerCopy.innerHTML.replace(/\b2026\b/, new Date().getFullYear());
+        const currentYear = new Date().getFullYear();
+        footerCopy.textContent = `© ${currentYear} Bibash Pandey.`;
     }
 });
