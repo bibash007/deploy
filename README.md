@@ -49,6 +49,10 @@ The interface includes reduced-motion handling for users who prefer less animati
 
 The contact form currently provides a client-side confirmation message. It does not send data to a backend service.
 
+## Performance
+
+The site uses lightweight vanilla JavaScript and loads only the libraries needed for typography and page interactions.
+
 ## Local Development
 
 Open `index.html` directly in a browser, or serve the project with any simple static web server.
