@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const contactForm = document.getElementById("contactForm");
     const formMessage = document.getElementById("formMessage");
     const submitButton = contactForm?.querySelector('button[type="submit"]');
+    let formMessageTimeout;
 
     if (contactForm && formMessage) {
         formMessage.setAttribute('role', 'status');
@@ -45,8 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             contactForm.reset();
+            clearTimeout(formMessageTimeout);
 
-            setTimeout(() => {
+            formMessageTimeout = setTimeout(() => {
                 formMessage.style.display = "none";
                 if (submitButton) {
                     submitButton.disabled = false;
