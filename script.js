@@ -48,13 +48,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Navbar Scroll Effect ---
     const navbar = document.getElementById('navbar');
     if (navbar) {
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 20) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        }, { passive: true });
+        const updateNavbarState = () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 20);
+        };
+
+        updateNavbarState();
+        window.addEventListener('scroll', updateNavbarState, { passive: true });
     }
 
     // --- Smooth Anchor Navigation ---
