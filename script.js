@@ -57,6 +57,22 @@ document.addEventListener("DOMContentLoaded", () => {
         }, { passive: true });
     }
 
+    // --- Smooth Anchor Navigation ---
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', event => {
+            const targetId = link.getAttribute('href');
+            const target = document.querySelector(targetId);
+
+            if (!target) return;
+
+            event.preventDefault();
+            target.scrollIntoView({
+                behavior: prefersReducedMotion ? 'auto' : 'smooth',
+                block: 'start'
+            });
+        });
+    });
+
     // --- Dynamic Footer Year ---
     const footerCopy = document.querySelector('.footer-copy');
     if (footerCopy) {
