@@ -92,3 +92,7 @@ The project has no package manager requirement for its core frontend files, whic
 ## Typography
 
 The page uses Google Fonts for its visual typography while keeping the rest of the interface dependency-light.
+
+## Assets
+
+Images and icons are kept under `assets/` so static media remains separated from the page structure and JavaScript logic.
