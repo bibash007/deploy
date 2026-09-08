@@ -56,3 +56,7 @@ The site uses lightweight vanilla JavaScript and loads only the libraries needed
 ## Local Development
 
 Open `index.html` directly in a browser, or serve the project with any simple static web server.
+
+## Overview
+
+The portfolio is organized as a single-page experience so visitors can move between sections without navigating away from the main page.
