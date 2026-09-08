@@ -80,3 +80,7 @@ The main page presents professional information in a consistent section-based la
 ## Deployment
 
 Because the project is a static website, it can be deployed to a static hosting service that serves HTML, CSS, JavaScript, and asset files.
+
+## Maintenance
+
+Keep project descriptions, skills, certifications, and contact information synchronized with the current portfolio content when making future updates.
