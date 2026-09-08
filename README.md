@@ -124,3 +124,7 @@ The contact area provides an email address, phone number, location, and a client
 ## Accessibility Details
 
 Reduced-motion preferences are respected so visitors can browse the site without scroll animations when their system requests reduced motion.
+
+## Performance Notes
+
+Images, icons, and JavaScript are kept local where possible, helping the page avoid unnecessary runtime dependencies.
