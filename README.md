@@ -76,3 +76,7 @@ Interactive features are written with standard browser APIs and progressively de
 ## Content Sections
 
 The main page presents professional information in a consistent section-based layout, making the portfolio easy to scan for visitors.
+
+## Deployment
+
+Because the project is a static website, it can be deployed to a static hosting service that serves HTML, CSS, JavaScript, and asset files.
