@@ -64,3 +64,7 @@ The portfolio is organized as a single-page experience so visitors can move betw
 ## Design Goals
 
 The interface prioritizes clear typography, simple navigation, readable content blocks, and lightweight client-side interactions.
+
+## Responsive Layout
+
+The page is intended to remain usable across desktop and smaller screen sizes, with the layout adapting through CSS.
