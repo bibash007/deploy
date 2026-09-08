@@ -112,3 +112,7 @@ Technical skills are grouped into programming, data science, machine learning, g
 ## Education
 
 The education section presents the current computing degree alongside previous secondary education in a simple timeline.
+
+## Certifications
+
+Professional certifications are displayed separately so visitors can quickly review completed learning and training.
