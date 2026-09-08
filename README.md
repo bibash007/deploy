@@ -68,3 +68,7 @@ The interface prioritizes clear typography, simple navigation, readable content 
 ## Responsive Layout
 
 The page is intended to remain usable across desktop and smaller screen sizes, with the layout adapting through CSS.
+
+## Browser Behavior
+
+Interactive features are written with standard browser APIs and progressively degrade when optional APIs are unavailable.
