@@ -132,3 +132,7 @@ Images, icons, and JavaScript are kept local where possible, helping the page av
 ## Roadmap
 
 Future improvements can include additional projects, richer case studies, stronger form handling, and continued accessibility and performance refinement.
+
+## Status
+
+This portfolio is an actively maintained personal project and will evolve alongside new learning, projects, and experience.
