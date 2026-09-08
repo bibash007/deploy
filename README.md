@@ -96,3 +96,7 @@ The page uses Google Fonts for its visual typography while keeping the rest of t
 ## Assets
 
 Images and icons are kept under `assets/` so static media remains separated from the page structure and JavaScript logic.
+
+## Interaction
+
+JavaScript handles scroll-based effects, anchor navigation, form feedback, and dynamic footer content without requiring a frontend framework.
