@@ -72,3 +72,7 @@ The page is intended to remain usable across desktop and smaller screen sizes, w
 ## Browser Behavior
 
 Interactive features are written with standard browser APIs and progressively degrade when optional APIs are unavailable.
+
+## Content Sections
+
+The main page presents professional information in a consistent section-based layout, making the portfolio easy to scan for visitors.
