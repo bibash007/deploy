@@ -60,3 +60,7 @@ Open `index.html` directly in a browser, or serve the project with any simple st
 ## Overview
 
 The portfolio is organized as a single-page experience so visitors can move between sections without navigating away from the main page.
+
+## Design Goals
+
+The interface prioritizes clear typography, simple navigation, readable content blocks, and lightweight client-side interactions.
