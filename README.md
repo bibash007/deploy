@@ -128,3 +128,7 @@ Reduced-motion preferences are respected so visitors can browse the site without
 ## Performance Notes
 
 Images, icons, and JavaScript are kept local where possible, helping the page avoid unnecessary runtime dependencies.
+
+## Roadmap
+
+Future improvements can include additional projects, richer case studies, stronger form handling, and continued accessibility and performance refinement.
