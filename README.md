@@ -100,3 +100,7 @@ Images and icons are kept under `assets/` so static media remains separated from
 ## Interaction
 
 JavaScript handles scroll-based effects, anchor navigation, form feedback, and dynamic footer content without requiring a frontend framework.
+
+## Projects
+
+Project cards highlight practical work involving RAG, semantic search, Gemini API integration, AI agents, tool calling, and Streamlit.
