@@ -88,3 +88,7 @@ Keep project descriptions, skills, certifications, and contact information synch
 ## Development Notes
 
 The project has no package manager requirement for its core frontend files, which keeps local setup straightforward.
+
+## Typography
+
+The page uses Google Fonts for its visual typography while keeping the rest of the interface dependency-light.
