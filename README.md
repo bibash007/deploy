@@ -116,3 +116,7 @@ The education section presents the current computing degree alongside previous s
 ## Certifications
 
 Professional certifications are displayed separately so visitors can quickly review completed learning and training.
+
+## Contact
+
+The contact area provides an email address, phone number, location, and a client-side message form for visitors who want to get in touch.
