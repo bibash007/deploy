@@ -104,3 +104,7 @@ JavaScript handles scroll-based effects, anchor navigation, form feedback, and d
 ## Projects
 
 Project cards highlight practical work involving RAG, semantic search, Gemini API integration, AI agents, tool calling, and Streamlit.
+
+## Skills
+
+Technical skills are grouped into programming, data science, machine learning, generative AI, analysis, backend frameworks, tools, and soft skills.
