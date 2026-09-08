@@ -120,3 +120,7 @@ Professional certifications are displayed separately so visitors can quickly rev
 ## Contact
 
 The contact area provides an email address, phone number, location, and a client-side message form for visitors who want to get in touch.
+
+## Accessibility Details
+
+Reduced-motion preferences are respected so visitors can browse the site without scroll animations when their system requests reduced motion.
