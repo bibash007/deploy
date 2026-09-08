@@ -108,3 +108,7 @@ Project cards highlight practical work involving RAG, semantic search, Gemini AP
 ## Skills
 
 Technical skills are grouped into programming, data science, machine learning, generative AI, analysis, backend frameworks, tools, and soft skills.
+
+## Education
+
+The education section presents the current computing degree alongside previous secondary education in a simple timeline.
