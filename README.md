@@ -84,3 +84,7 @@ Because the project is a static website, it can be deployed to a static hosting 
 ## Maintenance
 
 Keep project descriptions, skills, certifications, and contact information synchronized with the current portfolio content when making future updates.
+
+## Development Notes
+
+The project has no package manager requirement for its core frontend files, which keeps local setup straightforward.
